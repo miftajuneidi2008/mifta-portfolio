@@ -8,7 +8,7 @@ import GitHub from "@/assets/icons/github-svgrepo-com.svg";
 
 const Navbar = () => {
   return (
-    <header className="h-20 w-full shadow">
+    <header className="h-20 w-full shadow sticky top-0 z-50 backdrop-blur-md">
       <nav className="mx-auto flex h-full w-full max-w-7xl items-center justify-between px-4">
         <Link
           href={`/`}

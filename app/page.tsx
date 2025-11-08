@@ -1,4 +1,5 @@
 import Hero from "@/sections/Hero";
+import Projects from "@/sections/Projects";
 import Stack from "@/sections/Stack";
 import Image from "next/image";
 
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <Hero />
       <Stack />
+      <Projects />
     </>
   );
 }

@@ -12,11 +12,11 @@ import ReactHook from "@/assets/icons/download.svg"
 const Stack = () => {
   return (
     <div className="mx-auto h-screen w-full max-w-7xl">
-      <div className="flex w-full flex-col items-center gap-2">
-        <div className="text-[38px] font-bold text-[#42446E]">
+      <div className="title-container">
+        <div className="title">
           My Tech Stack
         </div>
-        <p className="text-[24px] text-[#666666]">
+        <p className="sub-title">
           {" "}
           Technologies I’ve been working with recently
         </p>

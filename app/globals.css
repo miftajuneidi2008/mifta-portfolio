@@ -129,4 +129,13 @@
   .gradient-profile-stroke {
   background-image: linear-gradient(to bottom, #E70FAA 0%, #00C0FD 100%);
 }
+.title-container{
+  @apply flex w-full flex-col items-center gap-2
+}
+.title{
+  @apply text-[38px] font-bold text-[#42446E]
+}
+.sub-title{
+  @apply text-[24px] text-[#666666]
+}
 }

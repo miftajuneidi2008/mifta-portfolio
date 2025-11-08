@@ -4,12 +4,12 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="mx-auto h-screen w-full max-w-7xl">
+    <div className="mx-auto min-h-screen w-full max-w-5xl">
       <div className="title-container">
         <div className="title">Projects</div>
         <p className="sub-title">Things I’ve built so far</p>
       </div>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+      <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 ">
         {projectData.map((project,index) => {
           return <ProjectCard key={index} {...project} />;
         })}

@@ -11,7 +11,7 @@ type cardProps = {
 };
 const ProjectCard = ({ title, description, stack, image }: cardProps) => {
   return (
-    <div className="flex flex-col rounded-lg bg-slate-200">
+    <div className="flex flex-col rounded-lg bg-white max-sm:max-w-[340px] max-sm:mx-auto sm:mx-2 xl:mx-0 ">
       <Image
         src={image}
         height={400}

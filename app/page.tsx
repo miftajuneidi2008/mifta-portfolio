@@ -1,3 +1,6 @@
+import About from "@/sections/About ";
+import Contact from "@/sections/Contact";
+import Footer from "@/sections/Footer";
 import Hero from "@/sections/Hero";
 import Projects from "@/sections/Projects";
 import Stack from "@/sections/Stack";
@@ -9,6 +12,9 @@ export default function Home() {
       <Hero />
       <Stack />
       <Projects />
+      <About />
+      <Contact />
+      <Footer />
     </>
   );
 }

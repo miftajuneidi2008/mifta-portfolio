@@ -5,7 +5,7 @@ import React from "react";
 const Projects = () => {
   return (
     <div className="mx-auto min-h-screen w-full max-w-5xl">
-      <div className="title-container">
+      <div className="title-container mb-10">
         <div className="title">Projects</div>
         <p className="sub-title">Things I’ve built so far</p>
       </div>
